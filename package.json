@@ -1,0 +1,31 @@
+{
+  "name": "lri",
+  "version": "1.0.0",
+  "description": "A collection (backed by an array) that evicts the least recently inserted (lri) element from of the collection once it has reached a defined capacity. It is similar to an lru cache except that it uses insertion position to determine eviction rather than when an element was last accessed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha",
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec"
+  },
+  "keywords": [
+    "lri",
+    "least",
+    "recention",
+    "inserted",
+    "lru",
+    "least",
+    "recently",
+    "used",
+    "array",
+    "list",
+    "collection",
+    "cache"
+  ],
+  "author": "Lewis Dawson <lew.dawson@lewdawson.com> (https://github.com/lewisdawson)",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4"
+  }
+}
